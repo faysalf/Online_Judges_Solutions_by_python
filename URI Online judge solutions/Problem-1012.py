@@ -1,0 +1,6 @@
+A, B, C = map(float,input().split())
+print("TRIANGULO: %.3f"%(0.5*A*C))
+print("CIRCULO: %.3f"%(3.14159*C*C))
+print("TRAPEZIO: %.3f"%(0.5*(A+B)*C))
+print("QUADRADO: %.3f"%(B*B))
+print("RETANGULO: %.3f"%(A*B))
